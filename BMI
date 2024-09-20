@@ -1,0 +1,12 @@
+
+´´´
+name = str(input('Enter your name: '))
+height = float(input('Enter your height in m: '))
+weight = float(input('Enter your weight in kg: '))
+bmi = weight / height ** 2
+print(name + "'s body mass index is " + str(bmi))
+if bmi < 25:
+  print (name + ' has no obesity')
+else:
+  print(name + ' has obesity')
+´´´
